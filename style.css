@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nunito+Sans:wght@200&display=swap');
+:root{
+    font-family: 'Nunito Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #131315;
+    font-family: var(--font-style);
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background: #242026;
+    box-shadow: 0 15px 25px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+.login-box h2{
+    font-family: cursive;
+    margin-bottom: 20%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box input{
+    position:relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom:1px solid #fff ;
+    outline: none;
+    background: transparent;
+
+}
+.login-box .user-box label{
+    position: relative;
+    left:0;
+    top:-60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color:#fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label{
+    top: -85px;
+    left:0;
+    color: #8f7cec;
+    font-size: 12px;
+}
+
+#submit{
+    padding: 10px 20px;
+    color: #CBBDDB;
+    font-size:16px ;
+    text-decoration:none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #8f7cec;
+    margin:auto
+
+}
+
+
+#submit:hover{
+    background: #8f7cec;
+    color:#fff;
+    border-radius: 5px;
+    box-shadow:0 0 5px #8f7cec, 0 0 10px #8f7cec, 0 0 10px #8f7cec, 0 0 10px #8f7cec; 
+}
+
+.button-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+#register{
+    font-size: 14px;
+    text-decoration: none;
+    color:#CBBDDB;
+    margin:auto;
+    width: 50%;
+    text-align: center;
+}
+
+#regsiter a{
+    margin: auto;
+    color:#8f7cec;
+    text-decoration: none;
+}
+
+
+body{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+}
